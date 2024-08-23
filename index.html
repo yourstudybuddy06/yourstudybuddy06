@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your French Learning Hub</h1>
+    </header>
+
+   <section class="video-section">
+        <h2>Video Lecture: Basic Greetings and Self-Introduction in French</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/Ro3iiwRiTqY?si=hcnTRJQ7OcNa6UaF" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="quiz-section">
+        <h2>Quiz: Test Your Knowledge</h2>
+        <form id="quizForm">
+            <!-- Quiz Questions -->
+            <div class="question">
+                <p>1. How do you say "Hello" in French?</p>
+                <label><input type="radio" name="q1" value="A"> A) Hola</label>
+                <label><input type="radio" name="q1" value="B"> B) Bonjour</label>
+                <label><input type="radio" name="q1" value="C"> C) Guten Tag</label>
+                <label><input type="radio" name="q1" value="D"> D) Ciao</label>
+                <label><input type="radio" name="q1" value="E"> E) Salut</label>
+            </div>
+
+            <div class="question">
+                <p>2. What does "Merci" mean?</p>
+                <label><input type="radio" name="q2" value="A"> A) Goodbye</label>
+                <label><input type="radio" name="q2" value="B"> B) Please</label>
+                <label><input type="radio" name="q2" value="C"> C) Thank you</label>
+                <label><input type="radio" name="q2" value="D"> D) Hello</label>
+                <label><input type="radio" name="q2" value="E"> E) Sorry</label>
+            </div>
+
+            <div class="question">
+                <p>3. How do you say "My name is" in French?</p>
+                <label><input type="radio" name="q3" value="A"> A) Je m'appelle</label>
+                <label><input type="radio" name="q3" value="B"> B) Mi nombre es</label>
+                <label><input type="radio" name="q3" value="C"> C) Ich heiße</label>
+                <label><input type="radio" name="q3" value="D"> D) Io mi chiamo</label>
+                <label><input type="radio" name="q3" value="E"> E) Nama saya</label>
+            </div>
+
+            <div class="question">
+                <p>4. Which of the following is the French word for "Goodbye"?</p>
+                <label><input type="radio" name="q4" value="A"> A) Hola</label>
+                <label><input type="radio" name="q4" value="B"> B) Salut</label>
+                <label><input type="radio" name="q4" value="C"> C) Au revoir</label>
+                <label><input type="radio" name="q4" value="D"> D) Ciao</label>
+                <label><input type="radio" name="q4" value="E"> E) Adiós</label>
+            </div>
+
+            <div class="question">
+                <p>5. What is the French word for "Please"?</p>
+                <label><input type="radio" name="q5" value="A"> A) Por favor</label>
+                <label><input type="radio" name="q5" value="B"> B) Bitte</label>
+                <label><input type="radio" name="q5" value="C"> C) Per favore</label>
+                <label><input type="radio" name="q5" value="D"> D) S'il vous plaît</label>
+                <label><input type="radio" name="q5" value="E"> E) Proszę</label>
+            </div>
+
+            <div class="question">
+                <p>6. How do you say "Yes" in French?</p>
+                <label><input type="radio" name="q6" value="A"> A) Oui</label>
+                <label><input type="radio" name="q6" value="B"> B) Ja</label>
+                <label><input type="radio" name="q6" value="C"> C) Si</label>
+                <label><input type="radio" name="q6" value="D"> D) Yes</label>
+                <label><input type="radio" name="q6" value="E"> E) Da</label>
+            </div>
+
+            <div class="question">
+                <p>7. What does "Non" mean in French?</p>
+                <label><input type="radio" name="q7" value="A"> A) Yes</label>
+                <label><input type="radio" name="q7" value="B"> B) No</label>
+                <label><input type="radio" name="q7" value="C"> C) Maybe</label>
+                <label><input type="radio" name="q7" value="D"> D) Please</label>
+                <label><input type="radio" name="q7" value="E"> E) Thank you</label>
+            </div>
+
+            <div class="question">
+                <p>8. Which of the following means "How are you?" in French?</p>
+                <label><input type="radio" name="q8" value="A"> A) ¿Cómo estás?</label>
+                <label><input type="radio" name="q8" value="B"> B) Wie geht es Ihnen?</label>
+                <label><input type="radio" name="q8" value="C"> C) Come stai?</label>
+                <label><input type="radio" name="q8" value="D"> D) Comment ça va?</label>
+                <label><input type="radio" name="q8" value="E"> E) Cum ești?</label>
+            </div>
+
+            <div class="question">
+                <p>9. What is the French word for "Good morning"?</p>
+                <label><input type="radio" name="q9" value="A"> A) Buongiorno</label>
+                <label><input type="radio" name="q9" value="B"> B) Guten Morgen</label>
+                <label><input type="radio" name="q9" value="C"> C) Buenos días</label>
+                <label><input type="radio" name="q9" value="D"> D) Bon matin</label>
+                <label><input type="radio" name="q9" value="E"> E) Bonjour</label>
+            </div>
+
+            <div class="question">
+                <p>10. How do you say "I'm fine, thank you" in French?</p>
+                <label><input type="radio" name="q10" value="A"> A) Estoy bien, gracias</label>
+                <label><input type="radio" name="q10" value="B"> B) Je vais bien, merci</label>
+                <label><input type="radio" name="q10" value="C"> C) Ich bin gut, danke</label>
+                <label><input type="radio" name="q10" value="D"> D) Sto bene, grazie</label>
+                <label><input type="radio" name="q10" value="E"> E) Eu sunt bine, mulțumesc</label>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Submit Quiz</button>
+        </form>
+        <div id="quizFeedback"></div>
+    </section>
+
+    <section class="assignment-section">
+        <h2>Assignment: Write a short paragraph introducing yourself in French, using the phrases you have learned from the video lecture so far. Be sure to include your name, age, place of origin, where you live, and the languages you speak </h2>
+        <p>Please submit your assignment through the link below: </p>
+        <p><a href="mailto:yourstudybuddy303@gmail.com" class="assignment-link">yourstudybuddy303@gmail.com</a></p>
+        <p>If the link above does not work, manually send the email to: <strong>yourstudybuddy303@gmail.com</strong></p>
+    </section>
+
+<section class="donation-section">
+        <h2>Support Our Work</h2>
+        <p>PLEASE DONATE</p>
+        
+        <div class="donation-details">
+            <div class="donation-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GTBank_logo.svg/768px-GTBank_logo.svg.png" alt="GTBank Logo" class="bank-logo">
+                <p>Account Number: 2032202001590</p>
+            </div>
+            <div class="donation-item">
+                <img src="https://s.rfi.fr/media/display/ed44f02a-c239-11ec-b0fc-005056bf8594/w:1280/p:16x9/wave-senegal-mobile-money.png" alt="Wave Mobile Logo" class="mobile-logo">
+                <p>Phone Number Account: 3709558</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 French Learning Hub. All Rights Reserved.</p>
+     <p> we are not affiliated with alliance franco and no copyright infringement intended</p>
+         
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
